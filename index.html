@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Google</title>
+    <style>
+        /* This box contains GOOGLE LOGO + Search Input + buttons */
+        #searchbox {
+            margin: auto;
+            width: 500px;
+            background-color: cornsilk;
+            top: 300px;
+
+        }
+
+        /* Search Input */
+        #search {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 400px;
+            border: 1px solid rgb(218, 218, 218);
+            border-radius: 30px;
+            padding: 15px 30px;
+        }
+
+        #search:hover {
+            box-shadow: 0px 3px 5px 1px rgb(216, 216, 216), 0px 0px 4px 0px rgb(224, 224, 224);
+        }
+
+        /* GOOGLE Logo */
+        #logo {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 55%;
+            margin-top: 150px;
+            margin-bottom: 20px;
+        }
+
+        /* Top MENU */
+        nav {
+            background-color: lightpink;
+            width: 100%;
+
+        }
+
+        ul.nav {
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        /* Defines ul style for TOP Menu & FOOTER Menu */
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: stretch;
+
+        }
+
+        /* It's the space in the middle of the footer */
+        #block5 {
+            width: 100px;
+        }
+
+        /* Define some space around each menu */
+        li {
+
+            padding: 8px 10px 8px 10px;
+        }
+
+        /* Search buttons + I'm feeling lucky Button */
+        button {
+            background-color: rgb(230, 230, 230);
+            border: 1px;
+            border-color: rgb(187, 187, 187);
+            border-radius: 5px;
+            color: rgb(107, 107, 107);
+            padding: 10px;
+            text-align: center;
+            display: inline-block;
+            font-size: 14px;
+            cursor: pointer;
+            margin: 10px;
+        }
+
+        button:hover {
+            border-color: rgb(255, 2, 2);
+            border: 4px;
+            box-shadow: 0px 1px 2px grey;
+            color: black;
+        }
+
+        #buttons {
+            display: flex;
+            justify-content: center;
+        }
+
+        /* FOOTER */
+        footer {
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            background-color: lightgrey;
+        }
+    </style>
+</head>
+
+<header>
+    <nav>
+        <ul class="nav">
+            <li>Gmail</li>
+            <li>Images</li>
+            <li>App</li>
+            <li>Account</li>
+        </ul>
+        </div>
+    </nav>
+
+    <body>
+
+        <div id="searchbox">
+            <img id="logo" src="https://www.google.fr/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png"
+                alt="Logo Google">
+            <form>
+                <label for="search">
+                    <input type="text" id="search" name="search">
+                    </input>
+                </label><br>
+                <div id="buttons">
+                    <button class="button">Search Google</button>
+                    <button class="button">I'm Feeling Lucky</button>
+                </div>
+        </div>
+        </form>
+    </body>
+
+    <footer>
+        <ul>
+            <li>Advertising</li>
+            <li>Business</li>
+            <li>About</li>
+            <li>How Search works</li>
+            <li id="block5"></li>
+            <li>Consumer Information</li>
+            <li>Privacy</li>
+            <li>Terms</li>
+            <li>Settings</li>
+        </ul>
+    </footer>
+
+</html>
